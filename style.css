@@ -1,0 +1,168 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #1E88E5;
+    color: #FFF;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apply styles to the hero section */
+  #hero {
+    background-color: #F5F5F5;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    margin-bottom: 40px;
+  }
+  
+  #hero .btn-primary {
+    background-color: #1E88E5;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hero .btn-primary:hover {
+    background-color: #1565C0;
+  }
+  
+  /* Apply styles to the services section */
+  #services {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #services h2 {
+    margin-bottom: 40px;
+  }
+  
+  #services ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #services li {
+    width: 30%;
+  }
+  
+  #services img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  #services h3 {
+    margin-bottom: 10px;
+  }
+  
+  #services p {
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the call to action section */
+  #cta {
+    background-color: #1E88E5;
+    color: #FFF;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #cta h2 {
+    margin-bottom: 40px;
+  }
+  
+  #cta .btn-secondary {
+    background-color: #FFF;
+    color: #1E88E5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #cta .btn-secondary:hover {
+    background-color: #E0E0E0;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    background-color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  footer nav li {
+    margin-right: 20px;
+  }
+  
+  footer nav li:last-child {
+    margin-right: 0;
+  }
+  
+  footer nav a {
+    color: #1E88E5;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+    footer p {
+        color: #981f1f;
+    }
