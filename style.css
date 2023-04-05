@@ -4,6 +4,30 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .spinner {
+    /* Size */
+    height: 4rem;
+    width: 4rem;
+
+    /* Create a curve at the top */
+    border: 4px solid #000000;
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: spinner 800ms linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
   
   /* Apply styles to the body */
   body {
@@ -14,7 +38,7 @@
   
   /* Apply styles to the header */
   header {
-    background-color: #1E88E5;
+    background-color: #c51414;
     color: #FFF;
     padding: 10px;
   }
@@ -59,7 +83,7 @@
   }
   
   #hero .btn-primary {
-    background-color: #1E88E5;
+    background-color: #c51414;
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -68,7 +92,7 @@
   }
   
   #hero .btn-primary:hover {
-    background-color: #1565C0;
+    background-color: #c51414;
   }
   
   /* Apply styles to the services section */
@@ -108,7 +132,7 @@
   
   /* Apply styles to the call to action section */
   #cta {
-    background-color: #1E88E5;
+    background-color: #c51414;
     color: #FFF;
     padding: 100px;
     text-align: center;
@@ -120,7 +144,7 @@
   
   #cta .btn-secondary {
     background-color: #FFF;
-    color: #1E88E5;
+    color: #c51414;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -154,7 +178,7 @@
   }
   
   footer nav a {
-    color: #1E88E5;
+    color: #c51414;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
   }
